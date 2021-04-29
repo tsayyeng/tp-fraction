@@ -1,0 +1,49 @@
+public class Fraction {
+	PRIVATE
+	int numerateur; //choisi la valeur  numérateur
+	int denominateur; //choisi la valeur dénominateur
+
+		public Fraction(){
+  			this.numerateur=0;
+  			this.denominateur=1;
+
+			public Fraction Add (Fraction r) { // calcule pour additionné la fraction
+				Fraction r= new Fraction();
+				r.numerateur = this.numerateur *f.denominateur + f.numerateur *denominateur;
+				r.denominateur = this.denominateur *f.denominateur;
+				return r;
+			}
+
+			public Fraction sub(Fraction f) { // calcule pour soustraire une fraction
+				Fraction r = new Fraction();
+				r.numerateur = this.numerateur *f.denominateur - f.numerateur *denominateur;
+				r.denominateur = this.denominateur *f.denominateur;
+				return r;
+			}
+			public Fraction mul(Fraction f) {Fraction r = new Fraction(); // calcule pour multiplier une fraction
+				r.numerateur = this.numerateur *f.numerateur;
+				r.denominateur = this.denominateur* f.denominateur;
+				return r;
+			}
+			public Fraction div(Fraction f) { // calcule pour divisé une fraction
+				Fraction r = new Fraction();
+				r.numerateur = this.numerateur *
+				f.denominateur;
+				r.denominateur = this.denominateur
+				* f.numerateur;
+				return r;
+			}
+
+
+	private void pgcd() {
+		int PGCD = pgcd(numerateur, denominateur);
+	   this.numerateur /= PGCD;
+	   this.denominateur /= PGCD;
+
+
+import IpFraction.*;
+class IpTest {
+	public static void main (String args[]) {     
+	System.out.println
+	System.out.println
+    }
